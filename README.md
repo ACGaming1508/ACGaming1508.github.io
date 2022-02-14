@@ -1,2 +1,2 @@
-# portfolio
+# Portfolio
 ACGaming's portfolio website
