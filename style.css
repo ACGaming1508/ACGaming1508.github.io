@@ -146,6 +146,15 @@ a:hover {
   width: 32px;
 }
 
+.icon:hover {
+    transform: scale(1.1);
+    color: #02aab0;
+    background-image: -webkit-linear-gradient(92deg, #02aab0, #00cdac);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: hue 10s infinite linear;
+}
+
 .skills-icon {
     font-size: 3rem;
     color: gray;
@@ -223,4 +232,3 @@ a:hover {
 }
 
 /* --------------- */
-
