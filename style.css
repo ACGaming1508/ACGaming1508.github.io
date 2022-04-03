@@ -98,16 +98,20 @@ html {
     color: #f35626;
     background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-animation: hue 10s infinite linear;
+    animation: hue 10s infinite linear;
 }
 
 .hue-bold {
     color: #f35626;
     background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-animation: hue 10s infinite linear;
+    animation: hue 10s infinite linear;
 }
 
 a:hover {
@@ -115,8 +119,10 @@ a:hover {
     color: #02aab0;
     background-image: -webkit-linear-gradient(92deg, #02aab0, #00cdac);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-animation: hue 10s infinite linear;
+    animation: hue 10s infinite linear;
 }
 
 /*---------------------------------------------------------*/
@@ -151,8 +157,10 @@ a:hover {
     color: #02aab0;
     background-image: -webkit-linear-gradient(92deg, #02aab0, #00cdac);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-animation: hue 10s infinite linear;
+    animation: hue 10s infinite linear;
 }
 
 .skills-icon {
@@ -168,8 +176,10 @@ a:hover {
     color: #02aab0;
     background-image: -webkit-linear-gradient(92deg, #02aab0, #00cdac);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-animation: hue 10s infinite linear;
+    animation: hue 10s infinite linear;
 }
   
 .tippy-box[data-theme~='gradiant'] {
@@ -211,6 +221,7 @@ a:hover {
     color: #f35626;
     background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
     -webkit-animation: hue 10s infinite linear;
+    animation: hue 10s infinite linear;
     outline: none;
     border: none;
 }
@@ -222,6 +233,16 @@ a:hover {
 
 
 @-webkit-keyframes hue {
+    from {
+        -webkit-filter: hue-rotate(0deg);
+    }
+
+    to {
+        -webkit-filter: hue-rotate(-360deg);
+    }
+}
+
+@keyframes hue {
     from {
         -webkit-filter: hue-rotate(0deg);
     }
