@@ -4,10 +4,9 @@ body,
 html {
     background-color: #111111;
     color: white;
-    height: 100%; 
+    height: 100%;
 }
 
-/* HEADINGS */ 
 #main-heading {
     border-top: solid;
 }
@@ -81,10 +80,6 @@ html {
     margin: 15px 10px 0 0;
 }
 
-/* ---------------------------------- */
-
-/* EFFECTS */
-
 .gray-text {
     color: gray;
 }
@@ -115,7 +110,7 @@ html {
 }
 
 a:hover {
-  transform: scale(1.1);
+    transform: scale(1.1);
     color: #02aab0;
     background-image: -webkit-linear-gradient(92deg, #02aab0, #00cdac);
     -webkit-background-clip: text;
@@ -124,10 +119,6 @@ a:hover {
     -webkit-animation: hue 10s infinite linear;
     animation: hue 10s infinite linear;
 }
-
-/*---------------------------------------------------------*/
-
-/* OTHER */
 
 #main-box {
     margin: 0 auto;
@@ -144,23 +135,6 @@ a:hover {
     height: 10rem;
     border-radius: 5rem;
     border: 3px solid;
-}
-
-.icon {
-  content: url("https://cdn.discordapp.com/attachments/909110181533716530/918591763772489738/ezgif.com-gif-maker-removebg-preview.png");
-  height: 35px;
-  width: 32px;
-}
-
-.icon:hover {
-    transform: scale(1.1);
-    color: #02aab0;
-    background-image: -webkit-linear-gradient(92deg, #02aab0, #00cdac);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -webkit-animation: hue 10s infinite linear;
-    animation: hue 10s infinite linear;
 }
 
 .skills-icon {
@@ -181,7 +155,7 @@ a:hover {
     -webkit-animation: hue 10s infinite linear;
     animation: hue 10s infinite linear;
 }
-  
+
 .tippy-box[data-theme~='gradiant'] {
     color: white;
     background-color: transparent;
@@ -196,12 +170,6 @@ a:hover {
 .card-text {
     color: gray;
 }
-
-/* -------------------------- */
-
-
-/* CONTACT ME */
-
 
 #contact-me textarea,
 #contact-me input {
@@ -226,12 +194,6 @@ a:hover {
     border: none;
 }
 
-/* -------------------------- */
-
-
-/* ANIMATION */
-
-
 @-webkit-keyframes hue {
     from {
         -webkit-filter: hue-rotate(0deg);
@@ -251,5 +213,3 @@ a:hover {
         -webkit-filter: hue-rotate(-360deg);
     }
 }
-
-/* --------------- */
